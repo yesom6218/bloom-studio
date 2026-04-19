@@ -35,7 +35,7 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed w-full z-50 backdrop-blur-md bg-white/80 border-b border-neutral-100">
         <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-          <div className="serif-text text-2xl font-semibold tracking-widest text-primary">
+          <div className="serif-text text-3xl font-semibold tracking-widest text-primary">
             BLOOM STUDIO
           </div>
 
@@ -115,7 +115,7 @@ export default function App() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.8 }}
-            className="text-lg md:text-2xl font-light mb-6 tracking-tight opacity-90"
+            className="serif-text text-3xl md:text-5xl font-light mb-8 tracking-tight opacity-95"
           >
             당신의 순간을, 꽃으로 기록합니다
           </motion.p>
@@ -156,7 +156,7 @@ export default function App() {
             transition={{ delay: 0.3 }}
             className="space-y-10 text-base md:text-xl leading-relaxed text-neutral-500 font-light italic"
           >
-            <p>볼룸 스튜디오는 꽃이 지닌 본연의 선과 색채를 탐구합니다.</p>
+            <p>블룸 스튜디오는 꽃이 지닌 본연의 선과 색채를 탐구합니다.</p>
             <p>단순한 장식을 넘어, 공간에 생명력을 불어넣고 소중한 순간의 감정을 시각적으로 형상화하는 작업을 지향합니다.</p>
             <p>우리는 계절의 변화를 가장 아름다운 순간에 포착하여, 당신의 일상에 우아한 여백과 향기를 선물합니다.</p>
           </motion.div>
@@ -188,7 +188,7 @@ export default function App() {
               {
                 title: 'Wedding Bouquet',
                 desc: '가장 특별한 날을 위한 웨딩 부케 디자인 클래스입니다. 신부의 체형과 드레스에 어울리는 최상의 조화를 탐구합니다.',
-                img: 'https://images.unsplash.com/photo-1533616688419-b7a585564566?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fCVFQSVCRCU4MyVFQiU4QiVBNCVFQiVCMCU5Q3xlbnwwfDF8MHx8fDI%3D'
+                img: 'https://images.pexels.com/photos/33461096/pexels-photo-33461096.jpeg'
               }
             ].map((course, idx) => (
               <motion.div 
@@ -307,7 +307,7 @@ export default function App() {
                   {
                     name: 'Minhee K.',
                     rating: 5,
-                    text: '"여자친구 생일 선물로 주문했는데 꽃의 색감이 너무 고급스러워서 정말 좋아했어요. 다음에도 꼭 볼룸에서 주문할게요."',
+                    text: '"여자친구 생일 선물로 주문했는데 꽃의 색감이 너무 고급스러워서 정말 좋아했어요. 다음에도 꼭 블룸에서 주문할게요."',
                     img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAXuXRT4hyeudsT_XNpX0TzhNXuesBi0VrwrwuSzH1_48-g8yxMKPkRjN5xxFcypPZIKBnSE7wD4qGKmfewN0ZOErtr8MYnc0kGslgFkoKXGBD-ejiKkjsjXb1rjrLU9xu47sRjwJvqzs4wH0DIfEFlpqhd-IXYH_YDJA7cuJRsYfvKshxJxiK4ZVsIDewO9TICYP1pjy9qt3ToZA_Nov0V8iqDBGItQdpjD77XlF_wVwhXAYknS9wmxXFR7q4VXC37Da-QBgUvxA'
                   },
                   {
@@ -399,7 +399,7 @@ export default function App() {
                 <div className="space-y-8 font-light text-neutral-500">
                   <div className="flex items-start space-x-5 group cursor-default">
                     <MapPin className="text-primary mt-1 transition-transform group-hover:translate-y-[-2px]" size={20} />
-                    <p className="text-sm">서울특별시 강남구 신사동 123-45, 1층 볼룸 스튜디오</p>
+                    <p className="text-sm">서울특별시 강남구 신사동 123-45, 1층 블룸 스튜디오</p>
                   </div>
                   <div className="flex items-start space-x-5 group cursor-default">
                     <Clock className="text-primary mt-1 transition-transform group-hover:translate-y-[-2px]" size={20} />
@@ -448,7 +448,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="py-20 border-t border-neutral-100 text-center bg-white">
-        <p className="serif-text text-2xl tracking-[0.4em] mb-6 text-primary font-medium opacity-80">
+        <p className="serif-text text-3xl tracking-[0.4em] mb-6 text-primary font-medium opacity-80">
           BLOOM STUDIO
         </p>
         <p className="text-[10px] text-neutral-300 tracking-[0.2em] uppercase font-semibold">
